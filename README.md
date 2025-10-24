@@ -1,7 +1,7 @@
 ![Python 3.10](https://img.shields.io/badge/python-3.10-green)
 ![Pytorch 2.7](https://img.shields.io/badge/pytorch-2.7-orange)
 
->Codes for **Calibrating Multimodal Consensus for Emotion Recognition**.
+>Codes for **[Calibrating Multimodal Consensus for Emotion Recognition](https://arxiv.org/abs/2510.20256#)**.
 
 ## Usage
 ### Clone the repository
@@ -9,6 +9,9 @@
 ### Download the datasets
 + [CH-SIMS](https://github.com/thuiar/MMSA)
 + [CH-SIMS v2](https://github.com/thuiar/MMSA)
+
+In addition, we also provide the modality semantic consistent ($D_{msc}$) and modality semantic inconsistent ($D_{msi}$) subsets for CH-SIMS and CH-SIMS v2:
+- [BaiduYun Disk](https://pan.baidu.com/s/13PMT_lMTFUq50yc9gXv0fQ) `code: kafh`
 ### Preparation
 Set the ```data_path``` and the ```model_path``` correctly in ```main.py```.
 ### Single Training
